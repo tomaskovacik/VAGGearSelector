@@ -8,6 +8,7 @@ this library use timer, by uncomenting one of lines "#define USE_TIMER0-5" you c
 input pit has to have hardware interrupt (INTx), output pin did not have any limitaions, only that it has to be output capable of corse
 
 ====================== reading example:
+```
 #include <VAGGearSelector.h>
 #define INPIN 2
 
@@ -26,9 +27,11 @@ void loop() {
      gearSelector.clearGearChangedFlag();
   }
 }
+```
 =====================
 
 =====================  writing example on diferent device of corse
+```
 #include <VAGGearSelector.h>
   
 VAGGearSelector gearSelector(13,NULL,1);
@@ -59,6 +62,7 @@ void loop() {
    Serial.print(gearSelector.decodeSelectedGear()); // display what we have selected
   }
 }
+```
 ===================
 
 protocol overview:
