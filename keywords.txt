@@ -5,3 +5,5 @@ getGear	KEYWORD2
 getTransmitionType	KEYWORD2
 clearGearChangedFlag	KEYWORD2
 decodeSelectedGear	KEYWORD2
+setGear	KEYWORD2
+setTransmitionType	KEYWORD2
