@@ -1,0 +1,7 @@
+VAGGearSelector	KEYWORD1
+begin	KEYWORD2
+gearChanged	KEYWORD2
+getGear	KEYWORD2
+getTransmitionType	KEYWORD2
+clearGearChangedFlag	KEYWORD2
+decodeSelectedGear	KEYWORD2

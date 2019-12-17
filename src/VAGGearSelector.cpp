@@ -3,10 +3,10 @@
   https://github.com/tomaskovacik/
   GNU GPL3
 
-arduino library for reading and writing gear selector display protocol on  V.A.G. cars
+arduino library for reading and writing protocol for gear selector display protocol on  V.A.G. cars
 (gear selector display is the display on the cluster which indicate enganged gear on the automatic transmition. It is the text on the bootom side of the display: "PRND321")
 
-this library use timer, by uncommenting one of lines "#define USE_TIMER0-5" you can select which one you want to use"
+this library use timer, by uncommenting one of lines "#define USE_TIMER0-5" you can select which one you want to use
 input pin must have hardware interrupt cappability (INTx), only output pin limitation is that it has to be output capable 
 
 ====================== reading example:
