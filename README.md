@@ -109,27 +109,18 @@ protocol overview:
 
  collector on pin to pin 6 of 20pin red connector of audi a4 1998 cluster (or black connector in early models)
 
+```
                        cluster 
-                       
                           |
-                          
                           |
-                          
                           |         
-                          
          ____             |
-         
  D2 ____|1k  |__________|/  NPN
- 
         |____|          |\e
-        
                           |
-                          
                           |
-                          
                           |
-                          
                          _|_ GND
-                         
+```                         
 
  video: https://www.youtube.com/watch?v=0d18H4fjk1M
