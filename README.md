@@ -75,13 +75,15 @@ protocol overview:
  VAGGearSelector gearSelector(13,NULL,1);
 
  type of trans. High pulse in miliseconds
+ ```
  5  -> PRND432
  10 -> PRND321
  20 -> PRNDL
-
+```
  low pusle is multiply of lenght of identification pulse (5,10,20) and selected gear/mode
  
  for example:
+ ```
  [P]RND432 -> 5ms HIGH -> 5*1ms LOW
  P[R]ND432 -> 5ms HIGH -> 5*2ms LOW 
  PR[N]D432 -> 5ms HIGH -> 5*3ms LOW
@@ -91,8 +93,9 @@ protocol overview:
  PRND43[2] -> 5ms HIGH -> 5*7ms LOW
  PRND432 -> 5ms HIGH -> 5*8ms LOW
  [PRND432] -> 5ms HIGH -> 5*9ms LOW - transmition ERROR
-
+```
  6-7 gear transmition, manual mode:
+ ```
  [7]654321 - 20ms*12
  7[6]54321 - 20ms*13
  76[5]4321 - 20ms*14
@@ -102,7 +105,7 @@ protocol overview:
  765432[1] - 20ms*18
  7654321   - 20ms*19
  [7654321] - 20ms*20
-
+```
 
  output pin of arduino uno is connected to base of NPN transistor (2n5551 in my case) via 1k resistor
  emitor of transistor to ground, in this mode "inverted output is selected, 3th parameter set to 1
