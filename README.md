@@ -10,7 +10,7 @@ gear selector display is the display on the cluster which indicate enganged gear
 this library use timer, by uncommenting one of lines "#define USE_TIMER0-5" you can select which one you want to use"
 input pin must have hardware interrupt cappability (INTx), only output pin limitation is that it has to be output capable 
 
-====================== reading example:
+# read example:
 ```
 #include <VAGGearSelector.h>
 #define INPIN 2
@@ -31,9 +31,8 @@ void loop() {
   }
 }
 ```
-=====================
 
-=====================  writing example on diferent device of corse
+# writ example on diferent device of corse
 ```
 #include <VAGGearSelector.h>
   
@@ -66,7 +65,6 @@ void loop() {
   }
 }
 ```
-===================
 
 protocol overview:
 
@@ -112,15 +110,26 @@ protocol overview:
  collector on pin to pin 6 of 20pin red connector of audi a4 1998 cluster (or black connector in early models)
 
                        cluster 
+                       
                           |
+                          
                           |
+                          
                           |         
+                          
          ____             |
+         
  D2 ____|1k  |__________|/  NPN
+ 
         |____|          |\e
+        
                           |
+                          
                           |
+                          
                           |
+                          
                          _|_ GND
+                         
 
  video: https://www.youtube.com/watch?v=0d18H4fjk1M
